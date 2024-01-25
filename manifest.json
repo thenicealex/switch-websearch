@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Switch-Websearch",
+  "description": "This extension allows you to search selected text using various search engines.",
+  "version": "1.0",
+  "permissions": ["contextMenus", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "/icons/16.png",
+    "32": "/icons/32.png",
+    "48": "/icons/48.png",
+    "128": "/icons/128.png"
+  }
+}
